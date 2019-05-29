@@ -17,7 +17,7 @@ func main() {
         defer f.Close()
         log.SetOutput(f)
 
-        const indexPage = "public/index.html"
+        const indexPage = "public/index.gohtml"
         http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
             if r.Method == "POST" {
                 if buf, err := ioutil.ReadAll(r.Body); err == nil {
