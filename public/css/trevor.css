@@ -1,0 +1,64 @@
+body {
+    color: #222222;
+    background-color: #e0ebf5;
+    font-family: Arial, sans-serif;
+    font-size:14px;
+    -moz-transition-property: text-shadow;
+    -moz-transition-duration: 4s;
+    -webkit-transition-property: text-shadow;
+    -webkit-transition-duration: 4s;
+    text-shadow: none;
+}
+body.blurry {
+    -moz-transition-property: text-shadow;
+    -moz-transition-duration: 4s;
+    -webkit-transition-property: text-shadow;
+    -webkit-transition-duration: 4s;
+    text-shadow: #fff 0  0 25px;
+}
+a {
+    color: #0188cc;
+}
+.textColumn, .linksColumn {
+    padding: 6em;
+}
+.textColumn {
+    background-color: #e0ebf5;
+}
+
+.linksColumn {
+    background-color: #ffffff;
+}
+
+h1.name {
+    font-size: 500%;
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #375eab;
+}
+h2.lead {
+    font-size: 200%;
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #375eab;
+}
+ul {
+    padding-left: 1em;
+    margin: 0;
+}
+li {
+    margin: 1em 0;
+}
+
+header.split-background {
+    background-image: linear-gradient(to right, #e0ebf5, #e0ebf5 50%, white 50%, white)
+}
+.navbar {
+    background-image: linear-gradient(to right, #e0ebf5, #e0ebf5 50%, white 50%, white)
+}
+#about {
+    background-image: url("/public/images/coding_blur.png");
+}
+img.gopher {
+    height: 50px;
+}
