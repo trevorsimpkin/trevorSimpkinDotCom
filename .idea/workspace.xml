@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f46250c-f14a-4f59-80f0-a36699387f5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/trevor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/gopher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/css/scrolling-nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/js/jquery.easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/js/scrolling-nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application.go" beforeDir="false" afterPath="$PROJECT_DIR$/application.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/trevor.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/trevor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.gohtml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.gohtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trevorSimpkinDotCom.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trevorSimpkinDotCom.zip" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +19,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/application.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="750">
-                  <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+                <state relative-caret-position="135">
+                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
                   <folding>
                     <element signature="e#62#122#0" expanded="true" />
                   </folding>
@@ -73,11 +61,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/index.gohtml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
-                  <folding>
-                    <element signature="e#3413#3419#0#HTML" expanded="true" />
-                  </folding>
+                <state relative-caret-position="119">
+                  <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -85,8 +70,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/css/trevor.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="268">
-                  <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+                <state relative-caret-position="538">
+                  <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -114,17 +99,16 @@
         <option value="$PROJECT_DIR$/public/trevor.css" />
         <option value="$PROJECT_DIR$/bin/Dockerfile" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/application.go" />
         <option value="$PROJECT_DIR$/public/css/trevor.css" />
         <option value="$PROJECT_DIR$/public/index.gohtml" />
-        <option value="$PROJECT_DIR$/application.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1600" />
-    <option name="y" value="27" />
     <option name="width" value="1920" />
-    <option name="height" value="1002" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -226,7 +210,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32915717" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.034168564" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.034168564" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -268,28 +252,8 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/trevor.css" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cron.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/vendor/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile.local">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/vendor/js/bootstrap.bundle.min.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -301,12 +265,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/js/popper.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/js/popper.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/vendor/js/bootstrap.min.js" />
     <entry file="file://$PROJECT_DIR$/public/vendor/js/scrolling-nav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -328,10 +288,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile.local">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cron.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/application.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#62#122#0" expanded="true" />
           </folding>
@@ -340,18 +320,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/trevor.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state relative-caret-position="538">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.gohtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
-          <folding>
-            <element signature="e#3413#3419#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
         </state>
       </provider>
     </entry>

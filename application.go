@@ -20,11 +20,6 @@ func main() {
         }
         defer f.Close()
         log.SetOutput(f)
-        //certManager := autocert.Manager{
-        //    Prompt:     autocert.AcceptTOS,
-        //    HostPolicy: autocert.HostWhitelist("localhost"),
-        //    Cache:      autocert.DirCache("certs"),
-        //}
         const indexPage = "public/index.gohtml"
         http.Handle("/public/", http.StripPrefix("/public/", http.FileServer(http.Dir("public"))))
         http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
@@ -42,16 +37,9 @@ func main() {
             log.Printf("Received task %s scheduled at %s\n", r.Header.Get("X-Aws-Sqsd-Taskname"), r.Header.Get("X-Aws-Sqsd-Scheduled-At"))
             }
         })
-        //server := &http.Server{
-        //    Addr: ":https",
-        //    TLSConfig: &tls.Config{
-        //        GetCertificate: certManager.GetCertificate,
-        //    },
-        //}
         log.Printf("Listening on port %s\n\n", port)
-        //http.ListenAndServe(":http", certManager.HTTPHandler(nil))
         err = http.ListenAndServe(":"+port, nil)
-        //if false {
-        //    log.Fatal(server.ListenAndServeTLS("", ""))
-        //}  //Key and cert are coming from Let's Encrypt
+        if err != nil{
+            log.Println(err)
+        }
 }

@@ -23,11 +23,11 @@ a {
     padding: 6em;
 }
 .textColumn {
-    background-color: #e0ebf5;
+    background-color: transparent;
 }
 
 .linksColumn {
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 h1.name {
@@ -40,7 +40,7 @@ h2.lead {
     font-size: 200%;
     font-weight: normal;
     margin-bottom: 0;
-    color: #375eab;
+    color: black;
 }
 ul {
     padding-left: 1em;
@@ -50,14 +50,18 @@ li {
     margin: 1em 0;
 }
 
-header.split-background {
-    background-image: linear-gradient(to right, #e0ebf5, #e0ebf5 50%, white 50%, white)
-}
-.navbar {
+.split-background {
     background-image: linear-gradient(to right, #e0ebf5, #e0ebf5 50%, white 50%, white)
 }
 #about {
+    height: 100vh;
+    margin-left: 1px;
+}
+header.code-background {
     background-image: url("/public/images/coding_blur.png");
+}
+header.welcome {
+    height: 100vh;
 }
 img.gopher {
     height: 50px;
