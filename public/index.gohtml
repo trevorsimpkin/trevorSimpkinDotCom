@@ -1,12 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html lang="us">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link rel="stylesheet" type="text/css" href="/public/css/trevor.css">
   <link rel="stylesheet" href="/public/vendor/css/bootstrap.min.css">
   <link rel="stylesheet" href="/public/vendor/css/scrolling-nav.css">
-
-  <title>Trevor Simpkin</title>
+  <title>Trevor Simpkin - Portfolio</title>
 </head>
 <body id="page-top">
 
@@ -45,55 +44,208 @@
 <section class="split-background" id="about">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 textColumn">
-        <h2>Lorem Ipsum Dolor blah blah blah blah</h2>
+      <div class="col-sm-6 textColumn">
+        <h2>I wanted to learn Go. I built this page using Go to start my learning. I also like building other things.</h2>
       </div>
-      <div class="col-lg-6 linksColumn">
-        <h2>Learn More</h2>
-        <ul>
-          <li><a href="#portfolio" class="js-scroll-trigger">Portfolio</a></li>
-          <li><a href="https://github.com/trevorsimpkin">Github</a></li>
-          <li><a href="https://www.linkedin.com/in/trevor-simpkin-a284aa64/">LinkedIn</a></li>
-        </ul>
-        <h2>Related Links</h2>
-        <ul>
-          <li><a href="https://golang.org/doc/">Go Programming Language Manual</a></li>
-        </ul>
+      <div class="col-sm-6 linksColumn">
+        <h2>LINKS</h2>
+          <a href="#portfolio" class="js-scroll-trigger about-link">Portfolio</a> |
+          <a href="https://github.com/trevorsimpkin" class="about-link">Github</a> |
+          <a href="https://www.linkedin.com/in/trevor-simpkin-a284aa64/" class="about-link">LinkedIn</a>
       </div>
     </div>
-
   </div>
-
 </section>
 
-<section class="" id="portfolio">
+<section id="portfolio">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-6 textColumn">
-        <h2>Lorem Ipsum Dolor blah blah blah blah</h2>
+      <div class="row">
+          <div class="col-lg-12">
+            <h2 class="portfolio-head">Some of the things that I have built.</h2>
+          </div>
       </div>
-      <div class="col-lg-6 linksColumn">
-        <h2>Learn More</h2>
-        <ul>
-          <li><a href="#portfolio" class="js-scroll-trigger">Portfolio</a></li>
-          <li><a href="https://github.com/trevorsimpkin">Github</a></li>
-          <li><a href="https://www.linkedin.com/in/trevor-simpkin-a284aa64/">LinkedIn</a></li>
-        </ul>
-        <h2>Related Links</h2>
-        <ul>
-          <li><a href="https://golang.org/doc/">Go Programming Language Manual</a></li>
-        </ul>
+    <div class="row">
+      <div class="col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#pcapp">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="/public/images/graph_thumb.png" alt="PCA Web App">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Project Management App</h4>
+          <p class="text-muted">Web Development / Data Presentation</p>
+        </div>
+      </div>
+
+        <div class="modal" id="pcapp">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Paul Carpenter Associates, Inc. Data and Project Management App</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p>After creating the company website, the owner asked if it was possible to create our own environmental monitoring data management site. The idea was to provide a web interface to display real-time and saved data for analysis and client needs. This was clearly a lot larger of a project to take on. After researching, however, I determined it could be completed within a reasonable time frame. Also, I suggested we implement features incrementally so we could start to realize benefits as quickly as possible. </p>
+                    <p>In order to merge well with the current infrastructure I decided to use the Laravel Framework on a LAMP stack. I liked Laravel’s routing and Object Relational Mapping (ORM) features. The site would have a multitude of user roles, project management features, data presentation, and an email alert system that made organization and simple maintainability important.</p>
+                    <p> The site has already been used in multiple projects and has received praise from both customers and employees using the site. I continue to maintain the site and add new features as they are needed. It has also been essential in developing a <a data-dismiss="modal" data-toggle="modal" href="#mangoh">remote monitoring system</a>. </p>
+
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+      <div class="col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#pcamain">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="/public/images/PCATitle.png" alt="PCA Main Page">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Company Site</h4>
+          <p class="text-muted">Web Development</p>
+        </div>
+      </div>
+      <div class="modal" id="pcamain">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Paul Carpenter Associates, Inc. Company Website</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p>After my graduation from a Masters program in Information Systems, my employer asked if I could update their outdated site. They had an idea of what they wanted, but had previously outsourced development tasks. Not only was outsourcing expensive, but it did not allow for updates to the site. </p>
+                <p>I decided a simple-to-update website with a small relational database would fit their needs. Their web servers were already configured for a LAMP (Linux, Apache, MySQL, and PHP) stack with a few legacy sites still operating on them. To ensure compatibility, but have the ability to upgrade in the future, I decided to use Laravel, a PHP framework that works well on a LAMP stack.</p>
+                <p> The owner was extremely pleased with the site and has since transitioned all development tasks to me. The site can be found <a href="https://www.pcairnoisetraffic.com">HERE </a>.</p>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+        <div class="col-sm-6 portfolio-item">
+            <a href="/#" class="portfolio-link" data-toggle="modal" data-target="#mangoh">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                        <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img class="img-fluid" src="/public/images/rpi.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+                <h4>Legacy Hardware Into IoT Devices</h4>
+                <p class="text-muted">Prototyping / System Development</p>
+            </div>
+        </div>
+        <div class="modal" id="mangoh">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Building A State of the Art System with Old Equipment</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>I was tasked with making legacy environmental monitoring equipment into data streaming and remote controllable IoT devices. </p>
+                        <p>I started building this system at the same time that I was developing a data management and presentation web application, so the most important task was to enable streaming from devices to the new web app. This would enable employees and customers to access real time data, streamline projects, and position the company to be more competitive in the environmental monitoring industry. </p>
+                        <p>
+                            I first built a prototype using a <a href="https://www.raspberrypi.org/">Raspberry Pi</a>. I was able to communicate with the devices via a serial interface and send data to a Web API that I built for the new Web App. I was also able to send commands to the device to start/stop monitoring or change certain settings remotely.
+                        </p>
+                        <p>
+                            The prototype works great and is still being used on remote monitoring projects. I am now developing a smaller, more powerful, and more versatile remote monitoring device with a new IoT ARM device. Stay tuned for updates!
+                        </p>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+      <div class="col-sm-6 portfolio-item">
+        <a href="/#" class="portfolio-link" data-toggle="modal" data-target="#gameBoyModal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="/public/images/gameboi.png" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Game Boy 3B+</h4>
+          <p class="text-muted">Hobby Project</p>
+        </div>
+      </div>
+      <div class="modal" id="gameBoyModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Game Boy 3B+</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                        <img class="modal-gameboi" src="/public/images/retrogameboi.png" alt="game boy I made"/>
+              <p>
+                A love for old video games inspired me to start building retro gaming machines with Raspberry Pis. Using a RetroPie image built on top of Raspian, it is incredibly easy to get a very functional emulator up and running quickly. After building a console system I began exploring mobile possibilities.
+              </p>
+              <p>
+                There are countless tutorials online for building a Game Boy Zero (an old Nintendo Game Boy, stripped of much of its insides and replaced with a Raspberry Pi Zero running RetroPie OS). I became obsessed with building my own, but wanted it to have the larger, more powerful, Raspberry Pi 3B+ so I could play more processor demanding games from systems like N64 or Playstation.
+              </p>
+              <p>
+                I was able to Dremel out unnecessary bulk inside the original Game Boy case. I also created new holes for additional 'X' and 'Y' buttons on the front and added 'L' and 'R' triggers with mechanical switches on the back of the case. The buttons were hooked up to a custom PCB that connected to the GPIO pins on the Pi 3B+. I added a rechargeable LiPo Battery with an on/off switch. I modified a composite car back-up camera screen to run off the Pi's 5V power output and soldered the video input to the Pi's composite output.
+              </p>
+
+              <p>
+                There are some flaws in my design and I plan on returning to it soon, but as of now I can get a few hours of mobile game play of anything from NES to Dreamcast games.
+              </p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
 
 </section>
 
 <!-- Footer -->
-<footer class="py-5 bg-dark">
+<footer class="py-5">
   <div class="container">
-    <p class="m-0 text-center text-white">Copyright &copy; trevorsimpkin.com 2019</p>
+    <p class="m-0 text-center">Copyright &copy; trevorsimpkin.com 2019</p>
   </div>
   <!-- /.container -->
 </footer>

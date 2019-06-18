@@ -16,8 +16,12 @@ body.blurry {
     -webkit-transition-duration: 4s;
     text-shadow: #fff 0  0 25px;
 }
+
 a {
     color: #0188cc;
+}
+a.about-link {
+    color: black
 }
 .textColumn, .linksColumn {
     padding: 6em;
@@ -29,7 +33,10 @@ a {
 .linksColumn {
     background-color: transparent;
 }
-
+.modal-gameboi {
+    display: block;
+    margin:auto;
+}
 h1.name {
     font-size: 500%;
     font-weight: normal;
@@ -51,18 +58,27 @@ li {
 }
 
 .split-background {
-    background-image: linear-gradient(to right, #e0ebf5, #e0ebf5 50%, white 50%, white)
-}
-#about {
-    height: 100vh;
+    background-image: linear-gradient(to right, #e0ebf5, #e0ebf5 50%, white 50%, white);
     margin-left: 1px;
+}
+
+#portfolio, #about, .welcome {
+    min-height: 100vh;
 }
 header.code-background {
     background-image: url("/public/images/coding_blur.png");
 }
-header.welcome {
-    height: 100vh;
-}
 img.gopher {
     height: 50px;
+}
+h2.portfolio-head {
+    text-align: center;
+}
+
+.portfolio-caption {
+    text-align: center;
+}
+
+.portfolio-item {
+    padding: 100px 0;
 }
